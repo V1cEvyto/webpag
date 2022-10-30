@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+h1{
+    
+    color: gold;
+}
+/*div total*/
+#heead{
+    
+    border-width: auto;
+    border-bottom: 5px;
+    border-bottom-color: green;
+    border-style: solid;
+}
+#entradas{
+    
+    margin-top: 25px;
+    text-align: center;
+    margin-block-end: auto;
+}
+input, textarea, select, button{
+    
+    margin-top: 25px;
+    border-radius:10px 10px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: snow;
+    background-color: rgb(69, 68, 68);
+   
+    box-shadow: 3px 2px 20px 0.5px rgb(1, 167, 1);   
+    
+}

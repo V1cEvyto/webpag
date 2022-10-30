@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./temas.css"/>
+    <script type="text/javascript" src="pag.js"></script>
+    <title>Cadastro Servisos</title>
+</head>
+
+
+<body>
+    <div id="heead"><h1>Cadastro Serviços</h1></div>
+    <div id="entradas">
+        <input type="date" placeholder="Data"></input>
+        <br></br>
+        <input type="text" placeholder="Cliente"></input>
+        <br></br>
+        <select id="marcas">
+            <option>Marcas</option>
+            <option selected id="cat" value="cat">CAT</option>
+            <option value="case">CASE</option>
+            <option value="nw">NEW HOLLAND</option>
+            <option value="fiattalis">FIATTALIS</option>
+            <option value="Mf">MASSEY FERGUNSOM</option>
+            <option value="hyster">HYSTER</option>
+            <option value="Vw">VW</option>
+            <option value="ford">FORD</option>
+            
+        </select>
+        <select id="s">
+            <option id="ss"></option>
+            
+        </select>
+
+        <br></br>
+        <textarea placeholder="Serviço"></textarea>
+        <br></br>
+        <button type='submit' value="Enviar" onchange="db">Salvar</button>
+
+    </div>
+    
+</body>
+<script>
+    
+    let select   = document.querySelector("#marcas");
+    let valor = select.options[select.selectedIndex].value
+    
+    if( valor == 'cat'){
+        console.log('vc escolheu',valor)
+        
+    }
+    
+   
+</script>
+</html>
